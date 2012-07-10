@@ -1,13 +1,23 @@
 Elastical History
 =================
 
-0.0.8 (git)
+0.0.9 (git)
 -----------
+
+* Allow the use of a custom index name in `Index.bulk()`. [Keith Benedict]
+
+
+0.0.8 (2012-04-10)
+------------------
+
+* Added a workaround for API backcompat breakage in Request >= 2.9.200.
 
 * Implemented `Index.count()`. [VirgileD]
 
 * Fixed `ActionRequestValidationException` errors for searches without a body.
   [Filirom1]
+
+* Fixed scrolling in ElasticSearch >= 0.18. [SyndromeSoftware]
 
 
 0.0.7 (2012-01-11)
